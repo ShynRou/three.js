@@ -574,10 +574,6 @@ THREE.Vector4.prototype = {
 
 	},
 
-	isFinite: function () {
-		return isFinite(this.x) && isFinite(this.y) && isFinite(this.z) && isFinite(this.w);
-	},
-
 	equals: function ( v ) {
 
 		return ( ( v.x === this.x ) && ( v.y === this.y ) && ( v.z === this.z ) && ( v.w === this.w ) );
